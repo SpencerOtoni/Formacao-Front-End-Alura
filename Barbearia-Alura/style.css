@@ -99,15 +99,19 @@ form {
     margin: 40px 0;
 }
 
-label {
+label, form p {
     display: block;
     font-size: 20px;
     margin: 0 0 10px 0;
 }
 
-input {
+.input-padrao {
     display: block;
     width: 50%;
     padding: 10px 20px;
     margin: 0 0 20px 0;
+}
+
+#checkbox{
+    margin: 20px 0;
 }
