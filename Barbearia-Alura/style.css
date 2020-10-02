@@ -125,9 +125,11 @@ label, form legend {
     font-size: 18px;
     font-weight: bold;
     border-radius: 5px;
-    transition: 1s background;
+    transition: 1s all;
+    cursor: pointer;
 }
 
 #button:hover{
     background: darkorange;
+    transform: scale(1.2);
 }
