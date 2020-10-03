@@ -133,3 +133,18 @@ label, form legend {
     background: darkorange;
     transform: scale(1.2);
 }
+
+table {
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 8px 15px;
+    border: 1px solid #000000;
+}
