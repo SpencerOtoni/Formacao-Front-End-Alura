@@ -177,6 +177,8 @@ th, td {
     font-size: 2em;
     font-weight: bold;
     clear: left;
+   /* color: rgba(0, 0, 0, 0.3); */
+   /* text-shadow: 2px 2px #FF0000; */
 }
 
 /* pseudo-elementos
@@ -247,8 +249,14 @@ p:first-line {
 
 .imagem-beneficios {
     width: 60%;
+    opacity: 0.3;
+    transition: 4000ms;
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 
+.imagem-beneficios:hover {
+    opacity: 1;
+}
 .itens{
     line-height: 1.5em;
 }
