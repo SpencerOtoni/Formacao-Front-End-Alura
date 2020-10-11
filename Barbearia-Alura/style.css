@@ -269,3 +269,23 @@ p:first-line {
 .itens:first-child{
     font-weight: bold;
 }
+
+@media screen and (max-width: 480px) {
+.header, .principal, .mapa-conteudo, .conteudo-beneficios, .video{
+    width: auto;
+}
+
+
+h1{
+    text-align: center;
+}
+
+nav{
+    position: static;
+}
+
+.lista-beneficios, .imagem-beneficios {
+    width: 100%
+}
+    
+}
