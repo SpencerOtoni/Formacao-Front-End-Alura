@@ -35,6 +35,20 @@ body {
 	display: flex;
 }
 
+
+/* Mobile */
+.cabecalhoPrincipal-nav{
+	flex-direction: column;
+}
+
+.cabecalhoPrincipal .container{
+	flex-direction: column;
+	align-items: initial;
+	text-align: center;
+}
+/* Mobile */
+
+
 .cabecalhoPrincipal-nav-link {
 	padding: 10px;
 	margin-bottom: 10px;
