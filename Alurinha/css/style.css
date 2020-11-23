@@ -1,3 +1,4 @@
+/* Global */
 body {
 	background-color: #F2F5F7;
 	font-family: 'Open Sans',Arial,sans-serif;
@@ -8,11 +9,11 @@ body {
 	margin: 0 auto;
 }
 
+/* Cabeçalho */
 .cabecalhoPrincipal {
 	background-color: #FFF;
 	padding: 20px 0;
 }
-
 
 .cabecalhoPrincipal .container{
 	display: flex;
@@ -37,19 +38,31 @@ body {
 
 .cabecalhoPrincipal-nav-link {
 	padding: 10px;
-	margin-bottom: 10px;
 	color: #9799A6;
 	background-color: #FFF;
 	text-decoration: none;
 	transition: .5s;
 	display: block;
 
+	/* Mobile */
+	margin-bottom: 10px;
 	border-bottom: 1px solid #9799A6;
 }
 
+
+/* Principal */
 .conteudoPrincipal {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.subtitulo {
+	font-weight: bold;
+	font-size: 32px;
+	margin-bottom: 10px;
+
+	/* Mobile */
+	text-align: center;
 }
 
 .conteudoPrincipal-cursos{
@@ -67,13 +80,6 @@ body {
 
 .conteudoPrincipal-cursos-link:nth-child(4n+1) {
 	margin-right: 0%;
-}
-
-.subtitulo {
-	font-weight: bold;
-	font-size: 32px;
-	margin-bottom: 10px;
-	text-align: center;
 }
 
 .conteudoPrincipal-cursos-link {
@@ -118,10 +124,60 @@ body {
 	background: url(../img/background2.svg) no-repeat;
 }
 
+/* Video */
+.videoSobre {
+	background-color: #5E9EDC;
+	padding: 25px 0;
+}
 
+.videoSobre .container {
+	color: #FFF;
+	display: flex;
+}
+
+.videoSobre-video {
+	max-width: 100%;
+	flex-grow: 1;
+}
+
+.videoSobre-sobre {
+	font-size: 1.3em;
+	line-height: 2;
+	display: flex;
+	text-align: center;
+	flex-direction: column;
+	flex-grow: 1;
+	flex-shrink: 2;
+}
+
+.videoSobre-sobre-title {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+ .videoSobre-sobre-list{
+	flex-grow: 1;
+ }
+
+.videoSobre-button {
+	border-radius: 8px;
+	background-color: #ec6e5a;
+	display: block;
+	color: #FFF;
+	border: none;
+	height: 50px;
+	font-size: .8em;
+	outline: none;
+}
+
+/* Rodape Cursos*/
 .rodapePrincipal {
 	background-color: #324C64;
 	padding-top: 20px;
+}
+
+.rodapePrincipal .subtitulo {
+	color: #FFF;
 }
 
 .rodapePrincipal-navMap-list{
@@ -131,8 +187,13 @@ body {
 	flex-wrap: wrap;
 }
 
-.rodapePrincipal .subtitulo {
-	color: #FFF;
+.navmap-list-title {
+	font-weight: 700;
+	font-size: 1.3em;
+	margin: .9em 0;
+	padding-left: .3em;
+	padding-top: .2em;
+	padding-bottom: .2em;
 }
 
 .rodapePrincipal-navMap-link {
@@ -145,15 +206,6 @@ body {
 	font-size: .9em;
 }
 
-.navmap-list-title {
-	font-weight: 700;
-	font-size: 1.3em;
-	margin: .9em 0;
-	padding-left: .3em;
-	padding-top: .2em;
-	padding-bottom: .2em;
-}
-
 .navmap-list-title + .rodapePrincipal-navMap-link {
 	margin-top: 0;
 }
@@ -163,6 +215,7 @@ body {
 .navmap-list-title-frontend { color: #5EC6F3; border-left: 4px solid #5EC6F3; }
 .navmap-list-title-backend { color: #25D285; border-left: 4px solid #25D285; }
 
+/* Rodape */
 .rodapePrincipal-patrocinadores {
 	margin-top: 30px;
 	background: #F2F5F7;
@@ -227,49 +280,6 @@ body {
 	font-size: 16px;
 }
 
-.videoSobre {
-	background-color: #5E9EDC;
-	padding: 25px 0;
-}
-
-.videoSobre-video {
-	max-width: 100%;
-	flex-grow: 1;
-}
-
-.videoSobre .container {
-	color: #FFF;
-	display: flex;
-}
-
-.videoSobre-sobre-title {
-	font-size: 1.2em;
-	font-weight: bolder;
-}
-
-.videoSobre-sobre {
-	font-size: 1.3em;
-	line-height: 2;
-	display: flex;
-	text-align: center;
-	flex-direction: column;
-	flex-grow: 1;
-	flex-shrink: 2;
-}
- .videoSobre-sobre-list{
-	flex-grow: 1;
- }
-
-.videoSobre-button {
-	border-radius: 8px;
-	background-color: #ec6e5a;
-	display: block;
-	color: #FFF;
-	border: none;
-	height: 50px;
-	font-size: .8em;
-	outline: none;
-}
 
 .rodapePrincipal-contatoForm-legend {
 	margin-bottom: 10px;
@@ -351,24 +361,25 @@ body {
 }
 
 
-
-
 /* Mobile */
 @media(max-width: 768px){
-	.cabecalhoPrincipal-nav{
-		flex-direction: column;
-	}
 	
+	/* Cabecalho */
 	.cabecalhoPrincipal .container{
 		flex-direction: column;
 		align-items: initial;
 		text-align: center;
+	}
+	
+	.cabecalhoPrincipal-nav{
+		flex-direction: column;
 	}
 
 	.cabecalhoPrincipal-nav-link-app{
 		order: -1;
 	}
 	
+	/* Principal */
 	.conteudoPrincipal-cursos {
 		flex-direction: column;
 	}
@@ -377,6 +388,7 @@ body {
 		width: 100%;
 	}
 	
+	/* Rodape */
 	.rodapePrincipal-navMap-list{
 		height: auto;
 	}
@@ -408,6 +420,5 @@ body {
 		margin: 0 auto;
 	}
 }
-
 /* Mobile */
 
