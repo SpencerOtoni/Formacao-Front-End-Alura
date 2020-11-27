@@ -1,3 +1,6 @@
+.destaques{
+    padding: 0 2rem;
+}
 .caixa{
     display: flex;
     justify-content: center;
