@@ -18,7 +18,7 @@
     grid-template-rows: 173px auto; 
     margin-right: 1rem;
     width: calc(20% - 1rem); */
-    background: #fdfdfd;
+    background: $cor-background;
 }
 
 .populares__card:last-child { 
@@ -44,16 +44,16 @@
 
 .populares__card___titulo{
     font-size: 1.5rem;
-    color: #333333;
+    color: $cor-padrao-texto;
 }
 
 .populares__card___data{
     font-size: 0.9rem;
-    color: #808080;
+    color: $cor-data;
 }
 
 .populares__card___descricao{
-    color: #333333;
+    color: $cor-padrao-texto;
     text-align: justify;
     line-height: 1.5;
     margin: 1rem 0;
@@ -76,5 +76,5 @@
 .populares__botao{
     border: none;
     background: transparent;
-    color: #333333;
+    color: $cor-padrao-texto;
 }

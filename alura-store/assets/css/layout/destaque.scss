@@ -15,7 +15,7 @@
 }
 
 .destaque_titulo{
-    color: #fdfdfd;
+    color: $cor-title-destaque;
     background-color: rgba(0, 0, 0, 0.5);
     padding: .6rem;
     width: 100%;
@@ -63,9 +63,9 @@
 
 .destaque_categorias_item{
     align-items: center;
-    background: #fdfdfd;
+    background: $cor-background;
     border: 5px solid #dcdcdc;
-    color: #333333;
+    color: $cor-padrao-texto;
     display: flex;
     padding: 1rem;
     width: 50%;
