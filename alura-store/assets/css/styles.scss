@@ -1,0 +1,12 @@
+//@import 'helpers/';
+
+@import 'base/reset.scss';
+@import 'base/normalize.scss';
+
+@import 'layout/layout.scss';
+@import 'layout/menu.scss';
+@import 'layout/destaque.scss';
+@import 'layout/populares.scss';
+@import 'layout/rodape.scss';
+
+@import 'media-queries/responsivo.css'
