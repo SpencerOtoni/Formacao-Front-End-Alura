@@ -1,0 +1,32 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cabecalho {
+    background: #00161C;
+    color: #FFF;
+    width: 100%;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: .75rem 0;
+    border-bottom: 1px solid #103D4A;
+    
+}
+
+.cabecalho__logo {
+    margin-bottom: 1rem;
+    background: chocolate;
+    
+}
+
+.cabecalho__navegacao {
+    background: cornflowerblue;
+}
+
+.cabecalho__link {
+    display: inline-block;
+}
