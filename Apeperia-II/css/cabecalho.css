@@ -16,7 +16,7 @@
 }
 
 .cabecalho__navegacao {
-    width: 40%;
+    width: 80%;
 }
 
 .cabecalho__navegacao__list{
@@ -30,6 +30,7 @@
 
 .cabecalho__link {
     padding: .5rem 0;
+    padding-right: .4rem;
 }
 
 .cabecalho__link:hover {
