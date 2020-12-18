@@ -1,14 +1,16 @@
 .cabecalho {
-    background: #00161C;
-    color: #FFF;
+    background: var(--bg-chamada-mobile);
+    color: var(--branco);
     width: 100%;
+
+    box-sizing: border-box;
     
     display: flex;
     flex-direction: column;
     align-items: center;
 
     padding: .75rem 0;
-    border-bottom: 1px solid #103D4A;  
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);  
 }
 
 .cabecalho__logo {
@@ -16,7 +18,7 @@
 }
 
 .cabecalho__navegacao {
-    width: 80%;
+    width: 70%;
 }
 
 .cabecalho__navegacao__list{
@@ -34,5 +36,5 @@
 }
 
 .cabecalho__link:hover {
-    color: #B72E2E;
+    color: var(--vermelho-forte);
 }

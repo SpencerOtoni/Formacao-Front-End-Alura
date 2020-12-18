@@ -1,6 +1,6 @@
 .chamada  {
-    background: #00161C;
-    color: #FFF;
+    background: var(--bg-chamada-mobile);
+    color: var(--branco);
 
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
 }
 
 .chamada__titulo {
-    font-family: 'Montserrat', serif;
+    font-family: var(--Montserrat);
     font-size: 2rem;
     font-weight: 700;
     text-transform: uppercase;
