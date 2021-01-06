@@ -1,4 +1,4 @@
-.menu-link{
+.menu__link{
     color: #808080;
     text-decoration: none;
     text-transform: capitalize;
@@ -10,6 +10,6 @@
     font-weight: bold;
 }
 
-.menu-link:hover{
+.menu__link:hover{
     text-decoration: underline; 
 }
