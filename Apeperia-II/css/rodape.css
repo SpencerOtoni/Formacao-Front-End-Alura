@@ -5,7 +5,8 @@
 
     background-color: var(--bg-rodape);
 
-    padding: 2.5rem 0 2rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2rem;
 }
 
 .rodape__social{
@@ -31,4 +32,17 @@
     display: inline-block;
 
     margin: 0 .5rem .7rem;
+}
+
+@media screen and (min-width: 1024px){
+    .rodape{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .rodape__navegacao{
+        text-align: start;
+        min-width: 600px;
+    }
 }

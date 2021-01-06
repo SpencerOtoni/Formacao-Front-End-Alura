@@ -9,7 +9,9 @@
     flex-direction: column;
     align-items: center;
 
-    padding: .75rem 0;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+
     border-bottom: 1px solid var(--borda-cabecalho-mobile);  
 }
 
@@ -37,4 +39,19 @@
 
 .cabecalho__link:hover {
     color: var(--vermelho-forte);
+}
+
+@media screen and (min-width: 1024px){
+    .cabecalho{
+        flex-direction: row;
+        justify-content: space-around;  
+
+        border: none;
+        position: absolute;
+        background: none;
+    }
+
+    .cabecalho__navegacao{
+        width: 50%;
+    }
 }
