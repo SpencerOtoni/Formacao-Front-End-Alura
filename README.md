@@ -2,7 +2,7 @@
   <img src="https://user-images.githubusercontent.com/61856036/104322579-e27b0100-54c3-11eb-822f-dbb1b22a46db.png" />
 </p>
 
-  <h1 align="center" >Alura - Front End - Projetos</h1>
+  <h1 align="center" >Alura - Formação Front End - Projetos</h1>
   <p align="center">🚀 Principais linguagens utilizadas durante o curso foram: HTML5, CSS3 e o JavaScript. </p>
  
   
