@@ -1,10 +1,6 @@
 <h1 align="center">
-    DevRadar Fullstack app
+    Alura Store | Baixe nossos aplicativos e jogos
 </h1>
-
-<h4 align="center">
-  Application to search developers by technologies using geolocation
-</h4>
 
 <p align="center">
     <img alt="Made by Stefano" src="https://img.shields.io/badge/made%20by-Spencer Otoni-%2300AFA2">
@@ -23,34 +19,16 @@
 
 This project was developed with the following technologies:
 
--  [Node.js](https://nodejs.org/)
--  [Express](https://expressjs.com/)
--  [Nodemon](https://nodemon.io/)
--  [Mongoose](https://mongoosejs.com/)
--  [MongoDB](https://www.mongodb.com/)
--  [ReactJS](https://reactjs.org/)
--  [Styled-components](https://www.styled-components.com/)
--  [React-toastify](https://github.com/fkhadra/react-toastify)
--  [React Native](https://facebook.github.io/react-native/)
--  [Axios](https://github.com/axios/axios)
--  [React Navigation](https://reactnavigation.org/)
--  [React-icons](https://react-icons.netlify.com/)
--  [Reactotron](https://infinite.red/reactotron)
--  [Polished](https://polished.js.org/)
--  [Prop-types](https://www.npmjs.com/package/prop-types)
--  [ESLint](https://eslint.org/)
--  [Prettier](https://prettier.io/)
--  [VS Code](https://code.visualstudio.com/)
+-  [HTML5]
+-  [CSS3]
+-  [CSS Grid]
+-  [Sass]
+-  [FlexBox]
 
 ## :iphone: Images
 
 <p align="center">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085670/spotify/nxjoizolo5dxjkzrlwja.png" height="250">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085669/spotify/qahzcvew7zwqxviii3q0.png" height="250">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085668/spotify/wo714hrmjxdbbwhwxnug.png" height="250">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085668/spotify/qi64z7z8qazfyu3vhpup.png" height="250">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085670/spotify/ekypbzlbr2qygi10eo0o.png" height="250">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085670/spotify/tfmkvfnlzjplyhsiq2um.png" height="250">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085670/spotify/nxjoizolo5dxjkzrlwja.png">
 </p>
 
 
