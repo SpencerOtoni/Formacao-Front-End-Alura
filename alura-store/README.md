@@ -1,40 +1,49 @@
-<h3 align="center">
-  Challenge 07 - GoFinances Web
-</h3>
+<h1 align="center">
+    DevRadar Fullstack app
+</h1>
 
-<blockquote align="center">“An investment in knowledge pays the best interest”!</blockquote>
-  
-  <p align="center">
-  <a href="stefanosaffran.com">
-    <img alt="Made by Stefano" src="https://img.shields.io/badge/made%20by-Spencer Otoni-%2300AFA2">
-  </a>
-</p>
-
-## :computer: Project
-
-ReactJS Application that connects to the [Challenge 06](https://github.com/StefanoSaffran/rocketseat-gostack11/tree/master/challenge-upload-files-db) API, format and display the created transactions and allow importing a CSV file to generate new records in the database.
+<h4 align="center">
+  Application to search developers by technologies using geolocation
+</h4>
 
 <p align="center">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1587495424/GoStack/b12asbwdgukvhosuboom.gif" >
+    <img alt="Made by Stefano" src="https://img.shields.io/badge/made%20by-Spencer Otoni-%2300AFA2">
+    <img alt="Project top programing language" src="https://img.shields.io/github/languages/top/SpencerOtoni/Formacao-Front-End?color=00AFA2">
+    <img alt="Project programing languages count" src="https://img.shields.io/github/languages/count/SpencerOtoni/Formacao-Front-End?color=00AFA2">
+    <img alt="Repository size" src="https://img.shields.io/github/repo-size/SpencerOtoni/Formacao-Front-End?color=00AFA2">
 </p>
 
 ## :rocket: Built with
 
 This project was developed with the following technologies:
 
--   [ReactJS](https://reactjs.org/)
--   [TypeScript](https://github.com/microsoft/TypeScript)
--   [Styled-components](https://www.styled-components.com/)
--   [React-icons](https://react-icons.netlify.com/)
--   [Date-fns](https://date-fns.org/)
--   [Polished](https://polished.js.org/)
--   [Axios](https://github.com/axios/axios)
--   [ESLint](https://eslint.org/)
--   [Prettier](https://prettier.io/)
--   [VS Code](https://code.visualstudio.com/)
+-  [Node.js](https://nodejs.org/)
+-  [Express](https://expressjs.com/)
+-  [Nodemon](https://nodemon.io/)
+-  [Mongoose](https://mongoosejs.com/)
+-  [MongoDB](https://www.mongodb.com/)
+-  [ReactJS](https://reactjs.org/)
+-  [Styled-components](https://www.styled-components.com/)
+-  [React-toastify](https://github.com/fkhadra/react-toastify)
+-  [React Native](https://facebook.github.io/react-native/)
+-  [Axios](https://github.com/axios/axios)
+-  [React Navigation](https://reactnavigation.org/)
+-  [React-icons](https://react-icons.netlify.com/)
+-  [Reactotron](https://infinite.red/reactotron)
+-  [Polished](https://polished.js.org/)
+-  [Prop-types](https://www.npmjs.com/package/prop-types)
+-  [ESLint](https://eslint.org/)
+-  [Prettier](https://prettier.io/)
+-  [VS Code](https://code.visualstudio.com/)
+
+## :iphone: Images
+
+<p align="center">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581926898/Omnistack/dzzzlnaxqlhnl98qehfo.png">
+</p>
 
 
-##: Entre em contato!
+## :mailbox_with_mail: Get in touch!
 
 <a href="https://www.linkedin.com/in/spencer-otoni-desenvolvedor/" target="_blank" >
   <img alt="Linkedin - Spencer" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
