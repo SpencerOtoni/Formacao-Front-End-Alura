@@ -13,6 +13,12 @@
     <img alt="Repository size" src="https://img.shields.io/github/repo-size/SpencerOtoni/Formacao-Front-End?color=00AFA2">
 </p>
 
+<p align="center">
+  <a href="#rocket-built-with">Built with</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#iphone-images">Images/gifs</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#mailbox_with_mail-get-in-touch">Get in touch</a>
+</p>
+
 ## :rocket: Built with
 
 This project was developed with the following technologies:
@@ -39,7 +45,12 @@ This project was developed with the following technologies:
 ## :iphone: Images
 
 <p align="center">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581926898/Omnistack/dzzzlnaxqlhnl98qehfo.png">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085670/spotify/nxjoizolo5dxjkzrlwja.png" height="250">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085669/spotify/qahzcvew7zwqxviii3q0.png" height="250">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085668/spotify/wo714hrmjxdbbwhwxnug.png" height="250">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085668/spotify/qi64z7z8qazfyu3vhpup.png" height="250">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085670/spotify/ekypbzlbr2qygi10eo0o.png" height="250">
+  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085670/spotify/tfmkvfnlzjplyhsiq2um.png" height="250">
 </p>
 
 
