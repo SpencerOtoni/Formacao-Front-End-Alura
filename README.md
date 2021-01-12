@@ -1,5 +1,5 @@
  <p align="center">
-  <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1594655952/igti/xrqczgfrqnugg8ztjueu.png" />
+  <img src="https://user-images.githubusercontent.com/61856036/104322194-6aacd680-54c3-11eb-8125-98326270d3b0.png" />
 </p>
 
   <h1 align="center" >Alura - Front End - Projetos</h1>
