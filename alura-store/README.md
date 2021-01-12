@@ -25,7 +25,7 @@ This project was developed with the following technologies:
 -  [Sass]
 -  [FlexBox]
 
-## :iphone: Images
+## :iphone: Images/gifs
 
 <p align="center">
   <img src="https://res.cloudinary.com/stefanosaffran/image/upload/v1581085670/spotify/nxjoizolo5dxjkzrlwja.png">
