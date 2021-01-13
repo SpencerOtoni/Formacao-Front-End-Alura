@@ -10,6 +10,9 @@
 <body class="container">
     
     <h1 class="text-center">Negociações</h1>
+
+    <div id="mensagemView">
+    </div>
     
     <form class="form" onsubmit="negociacaoController.adiciona(event)">
         
@@ -49,6 +52,8 @@
     <script src="js/app/Helpers/DateHelper.js"></script>
     <script src="js/app/models/ListaNegociacoes.js"></script>
     <script src="js/app/views/NegociacoesViews.js"></script>
+    <script src="js/app/models/Mensagem.js"></script>
+    <script src="js/app/views/MensagemView.js"></script>
     <!-- <script>
         let n1 = new Negociacao(new Date(), 5, 700)
         console.log(n1.data)
