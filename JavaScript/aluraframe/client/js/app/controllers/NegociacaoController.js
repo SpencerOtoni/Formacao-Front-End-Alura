@@ -19,9 +19,11 @@ class NegociacaoController{
         event.preventDefault()
 
         this._listaNegociacao.adiciona(this._criaNegociacao())
-        this._Mensagem.texto = 'Negociacao adicionada com sucesso'
         this._NegociacaoView.update(this._listaNegociacao)
+
+        this._Mensagem.texto = 'Negociacao adicionada com sucesso'
         this._MensagemView.update(this._Mensagem)
+        
         this._limpaFormulario()    
     }
 
