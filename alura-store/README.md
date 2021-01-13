@@ -24,6 +24,7 @@ This project was developed with the following technologies:
 -  [CSS Grid]
 -  [Sass]
 -  [FlexBox]
+-  [Padrão BEM CSS]
 
 ## :iphone: Images/gifs
 
