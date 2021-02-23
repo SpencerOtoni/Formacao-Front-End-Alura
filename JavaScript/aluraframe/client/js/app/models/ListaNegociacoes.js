@@ -1,13 +1,25 @@
-class ListaNegociacoes{
-    constructor(){
-        this._negociacoes = []
+class ListaNegociacoes {
+    
+    constructor(updateView) {
+        
+        this._negociacoes = [];
+        this.updateView = updateView
+    }
+    
+    adiciona(negociacao) {
+        
+        this._negociacoes.push(negociacao);
+        this.updateView(this)
+    }
+    
+    get negociacoes() {
+        
+        return [].concat(this._negociacoes);
     }
 
-    adiciona(negociacao){
-        this._negociacoes.push(negociacao)
-    }
+    deleta()  {
 
-    get negociacoes(){
-        return [].concat(this._negociacoes) 
+        this._negociacoes = [];
+        this.updateView(this)
     }
 }
